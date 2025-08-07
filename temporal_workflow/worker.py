@@ -1,8 +1,8 @@
 import asyncio
 from temporalio.worker import Worker
 from temporalio.client import Client
-from temporal_worker.workflows import ImageRequestWorkflow
-from temporal_worker.activities import update_request_status
+from temporal_workflow.workflows import ImageRequestWorkflow
+from temporal_workflow.activities import update_request_status
 
 async def main():
     

@@ -104,7 +104,7 @@ services:
   temporal-worker:
     build:
       context: .
-      dockerfile: temporal_worker/Dockerfile
+      dockerfile: temporal_workflow/Dockerfile
     container_name: temporal-worker
     env_file:
       - .env

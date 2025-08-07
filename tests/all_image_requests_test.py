@@ -4,8 +4,8 @@ session = requests.Session()
 
 login_url = "http://localhost:5000/login"
 login_data = {
-    "username": "emre2",
-    "password": "123456"
+    "username": "example",
+    "password": "example"
 }
 
 login_response = session.post(login_url, json = login_data)

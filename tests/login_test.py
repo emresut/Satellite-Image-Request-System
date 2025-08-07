@@ -3,8 +3,8 @@ import requests
 url = "http://localhost:5000/login"
 
 data = {
-    "username" : "emre2",
-    "password" : "123456"
+    "username" : "example",
+    "password" : "example"
 }
 
 response = requests.post(url, json = data)

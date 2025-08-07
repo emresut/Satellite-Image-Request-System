@@ -4,8 +4,8 @@ session = requests.Session()
 
 login_url = "http://localhost:5000/login"
 login_data = {
-    "username": "emre2",
-    "password": "123456"
+    "username": "example",
+    "password": "example"
 }
 
 login_response = session.post(login_url, json = login_data)
@@ -15,7 +15,7 @@ if login_response.status_code == 200:
 
     delete_image_request_url = "http://localhost:5000/delete_image_request"
     data = {
-        "request_code": "amlj5l5s"
+        "request_code": "example"
     }
 
     response = session.post(delete_image_request_url, json = data)

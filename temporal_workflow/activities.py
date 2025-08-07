@@ -3,7 +3,7 @@ from temporalio import activity,workflow
 @activity.defn
 async def update_request_status(request_code: str):
     with workflow.unsafe.imports_passed_through():
-        import os
+        import os    # imports should be used inside of function to make it deterministic
         from pymongo import MongoClient
         from dotenv import load_dotenv
 

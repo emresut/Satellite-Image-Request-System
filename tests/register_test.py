@@ -3,9 +3,9 @@ import requests
 url = "http://localhost:5000/register"
 
 data = {
-    "username" : "emre3",
-    "password" : "123456",
-    "confirm_password" : "123456"
+    "username" : "example",
+    "password" : "example",
+    "confirm_password" : "example"
 }
 
 response = requests.post(url, json = data)
