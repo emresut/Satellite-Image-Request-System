@@ -9,7 +9,7 @@ import string
 from datetime import datetime, timezone
 from temporalio.client import Client
 import asyncio
-from temporal_worker.workflows import ImageRequestWorkflow
+from temporal_workflow.workflows import ImageRequestWorkflow
 
 
 app = Flask(__name__, static_folder="frontend/build/static", static_url_path="/static")

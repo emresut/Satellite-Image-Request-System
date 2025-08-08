@@ -12,4 +12,4 @@ COPY . /worker
 RUN pip install --no-cache-dir -r requirements.txt
 
 # to start the worker
-CMD ["python", "-m", "temporal_workflow.worker"]
+CMD ["python", "-m", "worker"]

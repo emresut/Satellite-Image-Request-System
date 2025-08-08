@@ -1,5 +1,5 @@
 from temporalio import workflow
-from temporal_workflow.activities import update_request_status
+from activities import update_request_status
 from datetime import timedelta
 
 @workflow.defn
