@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.vscode/
+*.db
+*.sqlite
+.git
+node_modules/
+frontend/node_modules/
+frontend/public/
+frontend/src/
+*.log
+*.tmp
+*.bak
+tests/

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+build/
+node_modules/
+.env
+dynamicconfig/
+frontend/
